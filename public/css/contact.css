@@ -1,0 +1,82 @@
+body{
+    background-color:  #cbab6f;
+    text-align: center;
+}
+
+/* début Nav Bar */
+
+#bdn{
+    text-align: center;
+    background-color: maroon;
+    position: fixed;
+    top: 0px;
+    display: block;
+    font-size: larger;
+    z-index: 5;
+}
+.nav-item{
+    margin: 15px;
+    padding: 30px;
+    text-align: center;
+}
+.nav-link:hover{
+    background: linear-gradient(maroon, #cbab6f);
+    
+}
+#logo{
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 15px;
+}
+#audioplayer{
+    width: 200px;
+    position: relative;
+    top: 25px;
+}
+
+/* fin nav bar */
+
+/* Formulaire */
+
+input[type=text], input[type=email], select, textarea{
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid green; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input:focus, textarea:focus{
+    background-color:RGBa(6, 124, 58, 0.30);
+}
+
+#nom::placeholder, #prenom::placeholder, #email::placeholder, #subject::placeholder{
+    color:RGBa(0, 0, 0, 0.70)
+}
+
+
+.formulaire-contact{
+    
+    border-radius: 15px;
+    background-color: grey;
+    padding: 20px;
+    margin-left:400px;
+    margin-right:400px;
+}
+
+.back-contact{
+    padding-top:50px;
+    padding-bottom:50px;
+    z-index: 3;
+    margin-top: 80px;
+    margin-left:100px;
+    margin-right:100px;
+    border-left: 3px solid black;
+    border-right:3px solid black;
+}
+/* fin Formulaire */
