@@ -80,3 +80,27 @@ input:focus, textarea:focus{
     border-right:3px solid black;
 }
 /* fin Formulaire */
+
+/*footer*/
+
+#textfooter{
+    color: gold;
+}
+.fa-brands, .fa-discord{
+    color: purple;
+}
+
+/*Boutton top*/
+
+#PageUp, #PageUp-po{
+ position:relative;
+ left:370px;
+}
+
+#topcontact, #top-portfolio{
+    scroll-behavior: smooth;
+}
+
+#Pu-contact, #Pu-portfolio{
+    color:gold;
+}
