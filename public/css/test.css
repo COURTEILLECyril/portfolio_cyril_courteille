@@ -1,0 +1,43 @@
+  body {
+    background: black;
+  }
+
+/* début Nav Bar */
+
+#bdn{
+    text-align: center;
+    background-color: maroon;
+    position: fixed;
+    top: 0px;
+    display: block;
+    font-size: larger;
+    z-index: 5;
+}
+.nav-item{
+    margin: 15px;
+    padding: 30px;
+    text-align: center;
+}
+.nav-link:hover{
+    background: linear-gradient(maroon, #cbab6f);
+    
+}
+#logo{
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 15px;
+}
+#audioplayer{
+    width: 200px;
+    position: relative;
+    top: 25px;
+}
+
+/* fin nav bar */
+
+  /* Test Stargate */
+
+
+  /* fin stargate */

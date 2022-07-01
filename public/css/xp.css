@@ -1,0 +1,133 @@
+
+body{
+    /* background-color:  #cbab6f; */
+    background-image: url(../img/bggeneral.webp);
+    background-size: cover;
+    text-align: center;
+    
+}
+
+/* début Nav Bar */
+
+#bdn{
+    text-align: center;
+    background-color: maroon;
+    position: fixed;
+    top: 0px;
+    display: block;
+    font-size: larger;
+    z-index: 5;
+}
+.nav-item{
+    margin: 15px;
+    padding: 30px;
+    text-align: center;
+}
+.nav-link:hover{
+    background: linear-gradient(maroon, #cbab6f);
+    
+}
+#logo{
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 15px;
+}
+#audioplayer{
+    width: 200px;
+    position: relative;
+    top: 25px;
+}
+
+/* fin nav bar */
+
+
+/* container texte */
+
+.conttext{
+    /* margin-left: 10%;
+    margin-right: 10%; */
+    margin-top: 15%;
+}
+h1{
+    text-shadow: 2px 2px black;
+    color: white;
+}
+.conttext h3{
+    /* text-decoration: underline gold; */
+    margin-top: 5%;
+    text-shadow: 2px 2px red;
+    color: white;
+}
+/* Rotation */
+.rot{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.rot p:nth-of-type(2), .rot p:nth-of-type(4), .rot p:nth-of-type(6){
+    background-color: blue;
+    color: gold;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.rot p:nth-of-type(2):hover, .rot p:nth-of-type(4):hover, .rot p:nth-of-type(6):hover{
+    color: red;
+    box-shadow: 10px 5px 5px gray;
+    background-color: blue;
+}
+.rot img{
+    width: 150px;
+    height: 150px;
+    align-self: center;
+}
+.rotx, .roty, .rotz{
+    position: relative;
+    /* color: white; */
+    border: 1px solid black;
+    margin: 30px;
+    transition: transform 4s;
+}
+/* x */
+
+.rotx:active{
+    transform: rotateX(360deg);
+}
+
+/* y */
+
+.roty:active{
+    transform: rotateY(360deg);
+}
+
+/* z */
+.rotz:active:active{
+    transform: rotateZ(360deg);
+}
+
+/*footer*/
+
+#textfooter{
+    color: gold;
+}
+.fa-brands, .fa-discord{
+    color: purple;
+}
+
+/*Boutton top*/
+
+#PageUp, #PageUp-po{
+ position:relative;
+ left:370px;
+}
+
+#topcontact, #top-portfolio{
+    scroll-behavior: smooth;
+}
+
+#Pu-contact, #Pu-portfolio{
+    color:gold;
+}
