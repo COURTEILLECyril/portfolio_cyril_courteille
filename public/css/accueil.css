@@ -1,0 +1,84 @@
+body{
+    background-color:  #cbab6f;
+    text-align: center;
+}
+
+/* début Nav Bar */
+
+#bdn{
+    text-align: center;
+    background-color: maroon;
+    position: fixed;
+    top: 0px;
+    display: block;
+    font-size: larger;
+    z-index: 5;
+}
+.nav-item{
+    margin: 15px;
+    padding: 30px;
+    text-align: center;
+}
+.nav-link:hover{
+    background: linear-gradient(maroon, #cbab6f);
+    
+}
+#logo{
+    margin-top: 5px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 15px;
+}
+#audioplayer{
+    width: 200px;
+    position: relative;
+    top: 25px;
+}
+/* Fin Nav bar */
+
+
+/* 1ere section / Welcome */
+
+#section1{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    background-image: url("../img/bggeneral.webp");
+    background-position: center;
+}
+
+#wel1{
+    border: 3px solid black;
+    padding: 40px;
+    color: gold;
+}
+
+#imgwel{
+    position: relative;
+    left: 200px;
+}
+
+/*footer*/
+
+#textfooter{
+    color: gold;
+}
+.fa-brands, .fa-discord{
+    color: purple;
+}
+
+/*Boutton top*/
+
+#PageUp, #PageUp-po{
+ position:relative;
+ left:370px;
+}
+
+#topcontact, #top-portfolio{
+    scroll-behavior: smooth;
+}
+
+#Pu-contact, #Pu-portfolio{
+    color:gold;
+}
